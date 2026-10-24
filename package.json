@@ -1,0 +1,45 @@
+{
+  "name": "digident-crm",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest run --passWithNoTests",
+    "test:watch": "vitest",
+    "metrics": "node scripts/code-metrics.mjs",
+    "proxy-build": "node scripts/proxy-build.mjs",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "chart.js": "^4.5.1",
+    "exceljs": "^4.4.0",
+    "jspdf": "^4.2.1",
+    "jspdf-autotable": "^5.0.8",
+    "lucide-react": "^1.17.0",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.3.1",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^7.16.0",
+    "sweetalert2": "^11.26.25",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "globals": "^16.5.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.5.2",
+    "prettier": "^3.6.2",
+    "vite": "^5.2.0",
+    "vitest": "^3.2.4"
+  }
+}

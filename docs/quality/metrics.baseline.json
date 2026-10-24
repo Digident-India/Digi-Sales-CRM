@@ -1,0 +1,501 @@
+{
+  "summary": {
+    "files": 54,
+    "totalLines": 13461,
+    "filesOver300": 15,
+    "commentLines": 887,
+    "commentedOutCodeLines": 4,
+    "filesOver30PercentComments": 0,
+    "consoleCalls": 12,
+    "magicNumbers": 625,
+    "nestedTernaries": 32
+  },
+  "files": [
+    {
+      "file": "src/App.jsx",
+      "lines": 8,
+      "magicNumbers": 0,
+      "commentLines": 2,
+      "consoleCalls": 0,
+      "nestedTernaries": 0,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/backend/ApiRoutes.js",
+      "lines": 107,
+      "magicNumbers": 0,
+      "commentLines": 7,
+      "consoleCalls": 0,
+      "nestedTernaries": 0,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/backend/ApiService.js",
+      "lines": 408,
+      "magicNumbers": 1,
+      "commentLines": 109,
+      "consoleCalls": 0,
+      "nestedTernaries": 0,
+      "commentedCodeLines": 1
+    },
+    {
+      "file": "src/components/agent/AgentDrilldown.jsx",
+      "lines": 525,
+      "magicNumbers": 1,
+      "commentLines": 23,
+      "consoleCalls": 0,
+      "nestedTernaries": 4,
+      "commentedCodeLines": 1
+    },
+    {
+      "file": "src/components/client/CreateClientModal.jsx",
+      "lines": 278,
+      "magicNumbers": 0,
+      "commentLines": 16,
+      "consoleCalls": 0,
+      "nestedTernaries": 0,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/components/creditnote/CreateCreditNoteModal.jsx",
+      "lines": 644,
+      "magicNumbers": 14,
+      "commentLines": 40,
+      "consoleCalls": 0,
+      "nestedTernaries": 4,
+      "commentedCodeLines": 1
+    },
+    {
+      "file": "src/components/creditnote/CreditNoteActionModals.jsx",
+      "lines": 413,
+      "magicNumbers": 2,
+      "commentLines": 19,
+      "consoleCalls": 0,
+      "nestedTernaries": 3,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/components/creditnote/CreditNoteUi.jsx",
+      "lines": 172,
+      "magicNumbers": 2,
+      "commentLines": 6,
+      "consoleCalls": 0,
+      "nestedTernaries": 0,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/components/dashboard/AnalyticsDashboard.jsx",
+      "lines": 253,
+      "magicNumbers": 1,
+      "commentLines": 4,
+      "consoleCalls": 0,
+      "nestedTernaries": 0,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/components/followup/FollowupModal.jsx",
+      "lines": 121,
+      "magicNumbers": 0,
+      "commentLines": 7,
+      "consoleCalls": 0,
+      "nestedTernaries": 0,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/components/followup/MoveToFollowupModal.jsx",
+      "lines": 89,
+      "magicNumbers": 1,
+      "commentLines": 9,
+      "consoleCalls": 0,
+      "nestedTernaries": 0,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/components/followup/RemarkFollowupModal.jsx",
+      "lines": 191,
+      "magicNumbers": 7,
+      "commentLines": 20,
+      "consoleCalls": 0,
+      "nestedTernaries": 0,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/components/invoice/ClientPicker.jsx",
+      "lines": 159,
+      "magicNumbers": 2,
+      "commentLines": 10,
+      "consoleCalls": 0,
+      "nestedTernaries": 0,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/components/invoice/InvoiceCreditNotes.jsx",
+      "lines": 206,
+      "magicNumbers": 3,
+      "commentLines": 9,
+      "consoleCalls": 0,
+      "nestedTernaries": 0,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/components/invoice/InvoiceDetailModal.jsx",
+      "lines": 359,
+      "magicNumbers": 8,
+      "commentLines": 25,
+      "consoleCalls": 0,
+      "nestedTernaries": 0,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/components/invoice/InvoiceTableRow.jsx",
+      "lines": 90,
+      "magicNumbers": 0,
+      "commentLines": 0,
+      "consoleCalls": 0,
+      "nestedTernaries": 0,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/components/invoice/InvoiceUi.jsx",
+      "lines": 62,
+      "magicNumbers": 13,
+      "commentLines": 2,
+      "consoleCalls": 0,
+      "nestedTernaries": 1,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/components/invoice/MonthYearExcelExport.jsx",
+      "lines": 596,
+      "magicNumbers": 41,
+      "commentLines": 30,
+      "consoleCalls": 1,
+      "nestedTernaries": 1,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/components/invoice/RecordInvoiceReturnModal.jsx",
+      "lines": 241,
+      "magicNumbers": 2,
+      "commentLines": 17,
+      "consoleCalls": 0,
+      "nestedTernaries": 0,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/components/invoice/SettleInvoiceCreditModal.jsx",
+      "lines": 158,
+      "magicNumbers": 2,
+      "commentLines": 12,
+      "consoleCalls": 0,
+      "nestedTernaries": 0,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/components/invoice/UpdateInvoiceModal.jsx",
+      "lines": 541,
+      "magicNumbers": 3,
+      "commentLines": 22,
+      "consoleCalls": 1,
+      "nestedTernaries": 0,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/components/layout/Header.jsx",
+      "lines": 70,
+      "magicNumbers": 0,
+      "commentLines": 4,
+      "consoleCalls": 0,
+      "nestedTernaries": 0,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/components/layout/Sidebar.jsx",
+      "lines": 126,
+      "magicNumbers": 0,
+      "commentLines": 2,
+      "consoleCalls": 0,
+      "nestedTernaries": 0,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/components/lead/AddInquiryModal.jsx",
+      "lines": 114,
+      "magicNumbers": 0,
+      "commentLines": 1,
+      "consoleCalls": 0,
+      "nestedTernaries": 0,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/components/lead/ConvertToClientModal.jsx",
+      "lines": 387,
+      "magicNumbers": 5,
+      "commentLines": 32,
+      "consoleCalls": 1,
+      "nestedTernaries": 2,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/components/lead/ExcelModal.jsx",
+      "lines": 148,
+      "magicNumbers": 2,
+      "commentLines": 3,
+      "consoleCalls": 0,
+      "nestedTernaries": 0,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/components/lead/FlagModal.jsx",
+      "lines": 89,
+      "magicNumbers": 1,
+      "commentLines": 9,
+      "consoleCalls": 0,
+      "nestedTernaries": 0,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/components/lead/LeadCardParts.jsx",
+      "lines": 22,
+      "magicNumbers": 0,
+      "commentLines": 3,
+      "consoleCalls": 0,
+      "nestedTernaries": 0,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/components/lead/TouchHistory.jsx",
+      "lines": 116,
+      "magicNumbers": 2,
+      "commentLines": 22,
+      "consoleCalls": 0,
+      "nestedTernaries": 0,
+      "commentedCodeLines": 1
+    },
+    {
+      "file": "src/components/lead/WhatsappNoReplyModal.jsx",
+      "lines": 110,
+      "magicNumbers": 1,
+      "commentLines": 10,
+      "consoleCalls": 0,
+      "nestedTernaries": 0,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/components/ui/Alert.jsx",
+      "lines": 53,
+      "magicNumbers": 0,
+      "commentLines": 3,
+      "consoleCalls": 0,
+      "nestedTernaries": 0,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/components/ui/CountUp.jsx",
+      "lines": 32,
+      "magicNumbers": 1,
+      "commentLines": 5,
+      "consoleCalls": 0,
+      "nestedTernaries": 0,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/constants/NavigationLinks.js",
+      "lines": 27,
+      "magicNumbers": 0,
+      "commentLines": 6,
+      "consoleCalls": 0,
+      "nestedTernaries": 0,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/constants/UserRoles.js",
+      "lines": 15,
+      "magicNumbers": 0,
+      "commentLines": 2,
+      "consoleCalls": 0,
+      "nestedTernaries": 0,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/context/CrmContext.jsx",
+      "lines": 284,
+      "magicNumbers": 1,
+      "commentLines": 4,
+      "consoleCalls": 3,
+      "nestedTernaries": 0,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/main.jsx",
+      "lines": 13,
+      "magicNumbers": 0,
+      "commentLines": 0,
+      "consoleCalls": 0,
+      "nestedTernaries": 0,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/pages/AdminPage.jsx",
+      "lines": 682,
+      "magicNumbers": 16,
+      "commentLines": 34,
+      "consoleCalls": 0,
+      "nestedTernaries": 0,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/pages/AgentPerformancePage.jsx",
+      "lines": 672,
+      "magicNumbers": 20,
+      "commentLines": 28,
+      "consoleCalls": 0,
+      "nestedTernaries": 3,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/pages/AnalyticsPage.jsx",
+      "lines": 48,
+      "magicNumbers": 0,
+      "commentLines": 6,
+      "consoleCalls": 0,
+      "nestedTernaries": 0,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/pages/ClientProfilePage.jsx",
+      "lines": 484,
+      "magicNumbers": 1,
+      "commentLines": 27,
+      "consoleCalls": 0,
+      "nestedTernaries": 1,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/pages/ClientsPage.jsx",
+      "lines": 237,
+      "magicNumbers": 0,
+      "commentLines": 12,
+      "consoleCalls": 0,
+      "nestedTernaries": 2,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/pages/CreditNotesPage.jsx",
+      "lines": 529,
+      "magicNumbers": 5,
+      "commentLines": 30,
+      "consoleCalls": 0,
+      "nestedTernaries": 2,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/pages/FlagsPage.jsx",
+      "lines": 132,
+      "magicNumbers": 0,
+      "commentLines": 3,
+      "consoleCalls": 0,
+      "nestedTernaries": 1,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/pages/FollowupsPage.jsx",
+      "lines": 154,
+      "magicNumbers": 0,
+      "commentLines": 3,
+      "consoleCalls": 0,
+      "nestedTernaries": 1,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/pages/InquiriesPage.jsx",
+      "lines": 443,
+      "magicNumbers": 2,
+      "commentLines": 15,
+      "consoleCalls": 0,
+      "nestedTernaries": 1,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/pages/InvoiceFormPage.jsx",
+      "lines": 856,
+      "magicNumbers": 7,
+      "commentLines": 54,
+      "consoleCalls": 1,
+      "nestedTernaries": 0,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/pages/InvoiceListPage.jsx",
+      "lines": 1100,
+      "magicNumbers": 198,
+      "commentLines": 89,
+      "consoleCalls": 3,
+      "nestedTernaries": 6,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/pages/LoginPage.jsx",
+      "lines": 195,
+      "magicNumbers": 0,
+      "commentLines": 9,
+      "consoleCalls": 0,
+      "nestedTernaries": 0,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/routes/AppRoutes.jsx",
+      "lines": 107,
+      "magicNumbers": 0,
+      "commentLines": 18,
+      "consoleCalls": 0,
+      "nestedTernaries": 0,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/utils/AutoAssignTriggers.js",
+      "lines": 42,
+      "magicNumbers": 0,
+      "commentLines": 1,
+      "consoleCalls": 2,
+      "nestedTernaries": 0,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/utils/CreditNoteHelpers.js",
+      "lines": 226,
+      "magicNumbers": 105,
+      "commentLines": 17,
+      "consoleCalls": 0,
+      "nestedTernaries": 0,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/utils/InvoiceMath.js",
+      "lines": 78,
+      "magicNumbers": 3,
+      "commentLines": 20,
+      "consoleCalls": 0,
+      "nestedTernaries": 0,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/utils/InvoicePdf.js",
+      "lines": 144,
+      "magicNumbers": 91,
+      "commentLines": 6,
+      "consoleCalls": 0,
+      "nestedTernaries": 0,
+      "commentedCodeLines": 0
+    },
+    {
+      "file": "src/utils/ReportPdf.js",
+      "lines": 105,
+      "magicNumbers": 61,
+      "commentLines": 20,
+      "consoleCalls": 0,
+      "nestedTernaries": 0,
+      "commentedCodeLines": 0
+    }
+  ]
+}
