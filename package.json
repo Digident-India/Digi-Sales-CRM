@@ -2,9 +2,13 @@
   "name": "digident-crm",
   "version": "1.0.0",
   "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build:staging": "vite build --mode staging",
     "preview": "vite preview",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
